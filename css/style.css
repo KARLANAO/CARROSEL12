@@ -41,9 +41,9 @@ section#projects {
   
   .swiper-button-next, 
   .swiper-button-prev {
-    color: #7700ff;
+    color: #000000;
   }
   
   .swiper-pagination-bullet-active {
-    background-color: #7700ff ;
+    background-color: #000000 ;
   }
