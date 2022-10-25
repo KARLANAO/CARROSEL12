@@ -1,0 +1,49 @@
+/* PROJECTS */
+section#projects {
+    height: calc(100vh + 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .project-img {
+    width: 50%;
+  }
+  
+  .project-img img {
+    box-shadow: 0 1px 2px #0003;
+    object-fit: cover;
+    width: 80%;
+  }
+  
+  .project-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  
+  .swiper {
+    width: 95vw;
+    height: 500px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+  }
+  
+  .swiper-button-next, 
+  .swiper-button-prev {
+    color: #7700ff;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #7700ff ;
+  }
